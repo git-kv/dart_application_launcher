@@ -30,7 +30,7 @@ for x in range(5):
         padx=30
     )
 
-d4k_path = 'd4k_primary_installer.exe'
+d4k_path = "C:/Users/KVoelker/repos/python/dart_application_launcher/ps2exe_executables/d4k_primary_install.exe"
 d4k_avail = os.path.exists(d4k_path)
 
 if (d4k_avail):
