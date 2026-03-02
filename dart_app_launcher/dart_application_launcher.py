@@ -7,7 +7,8 @@ import subprocess
 # Create main window
 root = customtkinter.CTk()
 
-root.title('Dart Application Window')
+root.title('Dart Applications')
+root.iconbitmap("C:\\Program Files\\Dart Applications\\Dart Application Launcher\\assets\\dart_apps_icon.ico")
 root.geometry('500x500')
 
 # Create scrollable window
