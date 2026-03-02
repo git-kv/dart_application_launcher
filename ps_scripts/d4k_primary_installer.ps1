@@ -5,10 +5,13 @@
     D4K's files to be quickly updated by rerunning this script.
 #>
 
+# Get user's username
+$username = $env:USERNAME
+
 # Declare source and destination directories
-$source = "\\eocservices\apps$\programs\d4k\pb22\primary\push"
-$destination = "%localappdata%\Dart Applications\D4K\PB22\Primary"
-$app_path = "%localappdata%\Dart Applications\D4K\PB22\Primary\d4k2001.exe"
+$source = "\\eocservices.dartadvantage.com\apps$\programs\d4k\pb22\primary\push"
+$destination = "C:\Users\$username\AppData\Local\Dart Applications\D4K\PB22\Primary"
+$app_path = "C:\Users\$username\AppData\Local\Dart Applications\D4K\PB22\Primary\d4k2001.exe"
 
 # Mirror files in source to destination
 robocopy $source $destination /MIR
