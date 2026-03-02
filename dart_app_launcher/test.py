@@ -30,7 +30,7 @@ for x in range(5):
         padx=30
     )
 
-d4k_path = 'd4k2001.exe'
+d4k_path = 'd4k_primary_installer.exe'
 d4k_avail = os.path.exists(d4k_path)
 
 if (d4k_avail):
