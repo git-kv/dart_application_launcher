@@ -9,7 +9,7 @@ root = customtkinter.CTk()
 
 root.title('Dart Applications')
 root.iconbitmap("C:\\Program Files\\Dart Applications\\Dart Application Launcher\\assets\\dart_apps_icon.ico")
-root.geometry('500x500')
+root.geometry('375x500')
 
 # Create scrollable window
 my_frame = customtkinter.CTkScrollableFrame(root)
