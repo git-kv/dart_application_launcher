@@ -2,6 +2,12 @@
 Basic application launcher for our internal applications. Uses Python to launch PS2Exe PowerShell scripts that install our in house applications.
 
 # Install Instructions
+## Automated Install
+- Download copy of this repo
+- Open Terminal and cd into this repo
+- Run the setup.ps1 script
+
+## Manual
 - Create directory structure
     - C:\Program Files\Dart Applications\Dart Application Launcher\assets
 
